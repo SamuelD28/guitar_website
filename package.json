@@ -1,0 +1,46 @@
+{
+  "name": "guitar_website",
+  "version": "1.0.0",
+  "description": "Sample website used for the udemy course ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js",
+    "server": "ndoemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelD28/guitar_website.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "javascript",
+    "node",
+    "mongodb",
+    "mongoose",
+    "express",
+    "bodyparser",
+    "css"
+  ],
+  "author": "samuel dube",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamuelD28/guitar_website/issues"
+  },
+  "homepage": "https://github.com/SamuelD28/guitar_website#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.11.0",
+    "concurrently": "^3.6.0",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-formidable": "^1.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.1.6",
+    "multer": "^1.3.0"
+  }
+}
